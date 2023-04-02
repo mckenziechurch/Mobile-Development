@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'customers/customer_details_screen.dart';
 import 'customers/customer_screen.dart';
 import 'home_screen.dart';
 
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const HomeScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/customers': (context) => const CustomerScreen(),
+        '/customerdetails': (context) => const CustomerDetailScreen(),
       },      
     );
   }
